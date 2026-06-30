@@ -3,19 +3,6 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
-    },
-    {
-      "source": "/(.*)",
-      "destination": {
-        "type": "service",
-        "service": "expense-tracker-api"
-      }
     }
-  ],
-  "services": {
-    "expense-tracker-api": {
-      "root": ".",
-      "framework": "vite"
-    }
-  }
+  ]
 }
